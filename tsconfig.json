@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "lib-beehive-rg-shared": [
+        "dist/lib-beehive-rg-shared/lib-beehive-rg-shared",
+        "dist/lib-beehive-rg-shared"
+      ],
+      "lib-beehive-ui-shared": [
+        "dist/lib-beehive-ui-shared/lib-beehive-ui-shared",
+        "dist/lib-beehive-ui-shared"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
