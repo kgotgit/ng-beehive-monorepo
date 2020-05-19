@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start:beehive-blue":"ng serve --project=beehive-blue --port 4000",
-    "start:beehive-red":"ng serve --project=beehive-red --port 4100",
+    "start:beehive-red":"ng serve --project=beehive-red --port 4600",
     "start:beehive-green":"ng serve --project=beehive-green --port 4300",
     "start:beehive-RGB":"ng serve --project=beehive-RGB --port 4400",
     "start:beehive-RG":"ng serve --project=beehive-RG --port 4500"
