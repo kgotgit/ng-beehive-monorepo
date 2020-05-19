@@ -7,6 +7,10 @@ const routes: Routes = [
     "path":"pages/beehive-red-happy",
      loadChildren:()=>import('./pages/bee-blue-happy/bee-blue-happy.module').then(mod=>mod.BeeBlueHappyModule),
   },
+  {
+    "path":"pages/beehive-red-shock",
+     loadChildren:()=>import('./pages/bee-blue-shock/bee-blue-shock.module').then(mod=>mod.BeeBlueShockModule),
+  },
   {"path":"",redirectTo:"pages/beehive-blue-happy",pathMatch:'full'},
   {"path":"**",redirectTo:"pages/beehive-blue-happy",pathMatch:'full'},
 

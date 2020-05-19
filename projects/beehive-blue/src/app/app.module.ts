@@ -12,6 +12,7 @@ import { LibBeehiveUISharedModule } from 'projects/lib-beehive-ui-shared/src/pub
   imports: [
     BrowserModule,
     AppRoutingModule,
+    LibBeehiveUISharedModule
 
   ],
   providers: [],
