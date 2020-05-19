@@ -13,8 +13,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this._menu=[
-      {path:"pages/beehive-red-happy", name:"Red-Happy"} as IMenu,
-      {path:"pages/beehive-red-shock", name:"Red-shock"} as IMenu,
+      {path:"pages/beehive-blue-happy", name:"Blue-Happy"} as IMenu,
+      {path:"pages/beehive-blue-shock", name:"Blue-Shock"} as IMenu,
     ]
   }
 }

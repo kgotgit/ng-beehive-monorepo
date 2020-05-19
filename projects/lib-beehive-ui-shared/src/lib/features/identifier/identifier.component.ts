@@ -12,7 +12,7 @@ export class IdentifierComponent implements OnInit {
   _path:string;
   _module:string;
   _project:string;
-  _intoProject:string;
+  _bg:'blue'|'red'|'green';
 
   @Input()
   set componentName(name:string){
@@ -36,8 +36,8 @@ export class IdentifierComponent implements OnInit {
   }
 
   @Input()
-  set intoProject(name:string){
-    this._intoProject=name;
+  set bg(bg:'blue'|'red'|'green'){
+    this._bg=bg;
   }
 
   constructor() { }
