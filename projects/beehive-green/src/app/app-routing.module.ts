@@ -2,7 +2,16 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    "path":"pages/beehive-red-happy",
+     loadChildren:()=>import('./pages/bee-green-happy/bee-green-happy.module').then(mod=>mod.BeeGreenHappyModule),
+  },
+  {"path":"",redirectTo:"pages/beehive-green-happy",pathMatch:'full'},
+  {"path":"**",redirectTo:"pages/beehive-green-happy",pathMatch:'full'},
+
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
