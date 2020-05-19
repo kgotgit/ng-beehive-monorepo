@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LibBeehiveUISharedModule } from 'projects/lib-beehive-ui-shared/src/public-api';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LibBeehiveUISharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
