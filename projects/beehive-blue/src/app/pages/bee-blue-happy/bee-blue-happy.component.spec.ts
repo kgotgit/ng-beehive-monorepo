@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LibBeehiveUISharedComponent } from './lib-beehive-ui-shared.component';
+import { BeeBlueHappyComponent } from './bee-blue-happy.component';
 
-describe('LibBeehiveUISharedComponent', () => {
-  let component: LibBeehiveUISharedComponent;
-  let fixture: ComponentFixture<LibBeehiveUISharedComponent>;
+describe('BeeBlueHappyComponent', () => {
+  let component: BeeBlueHappyComponent;
+  let fixture: ComponentFixture<BeeBlueHappyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LibBeehiveUISharedComponent ]
+      declarations: [ BeeBlueHappyComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LibBeehiveUISharedComponent);
+    fixture = TestBed.createComponent(BeeBlueHappyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
