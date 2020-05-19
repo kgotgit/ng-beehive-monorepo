@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BeeBlueShockComponent } from './bee-blue-shock.component';
+import { BeeGreenCryComponent } from './bee-green-cry.component';
 
 
 const routes: Routes = [
-  {path:"", component:BeeBlueShockComponent},
-
+  {path:"",component:BeeGreenCryComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class BeeBlueShockRoutingModule { }
+export class BeeGreenCryRoutingModule { }
