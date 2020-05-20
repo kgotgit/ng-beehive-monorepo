@@ -19,6 +19,9 @@ const routes: Routes = [
     "path":"pages/beehive-green-cry",
      loadChildren:()=>import('../../../beehive-green/src/app/pages/bee-green-cry/bee-green-cry.module').then(mod=>mod.BeeGreenCryModule),
   },
+
+  {"path":"",redirectTo:"pages/beehive-red-happy",pathMatch:'full'},
+  {"path":"**",redirectTo:"pages/beehive-red-happy",pathMatch:'full'},
 ];
 
 @NgModule({
